@@ -1,11 +1,11 @@
-# Projeto Resília - Cifra de César
+# Projeto Resília - Mensagem Oculta
 
-O projeto foi desenvolvido para que o usuário posso introduzir uma mensagem e que seja criptografado ou descriptografados para a Base64 ou Cifra de César denominado PASSINHO DO ROMANO.
+O projeto foi desenvolvido para que o usuário posso introduzir uma mensagem e que seja criptografado ou descriptografados para a Base64 ou Cifra de César denominado MENSAGEM OCULTA.
 
 
 ## 🚀 Finalidade
 
-O projeto foi uma proposta do curso em desenvolvimento web da Resília Educação aonde fomos desafiados a realizar um "programa" aonde o usuário consegue realizar criptofrafias.
+O projeto foi uma proposta do curso em desenvolvimento web da Resília Educação aonde fomos desafiados a realizar um "programa" aonde o usuário consegue realizar criptografias.
 
 ## 📋 Tecnologias utilizadas
 

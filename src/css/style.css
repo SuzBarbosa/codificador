@@ -93,6 +93,7 @@ textarea {
   margin-left: 40px;
   background-color: var(--corprincipal);
   color: var(--corterciaria);
+  border-radius: 20px;
 }
 .rodape .icons {
   border: 4px dashed var(--corsecundaria);

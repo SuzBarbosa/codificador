@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Mensagens Codificadas</h1>
+    </header>
+
+<main>
+    <form>
+    <section>
+        <input id="cesar" type="radio" name="opcao" value="cifradecesar">
+        <label for="base64">Cifra de Cesar</label>
+        <input id="base64" type="radio" name="opcao" value="base64" checked>
+        <label for="base64">Base64</label>
+    </section>
+
+    <section>
+        <label><strong>Mensagem:</strong></label>
+     <br>   
+        <textarea name="mensagem" id="mensagem" cols="50" rows="10"  class="caixa" placeholder="Digite a sua mensagem..."></textarea>
+    </section>
+
+    <section id="incrementar" >
+        <label for="incrementar">Incremento:</label>
+        <input type="number" id="incrementacao" value="1" name="incrementar" class="caixa-2">   
+    </section>
+
+    <section>
+        <input  type="radio" id="codificar" name="opcao2" onclick="trocaTexto ()"checked>
+        <label for="codificar" >Codificar</label>
+        <input  type="radio" id="decodificar" name="opcao2" onclick="trocaTexto ()">
+        <label for="decodificar">Decodificar</label>
+    </section>
+ 
+    <br>
+        <button id="botao" class="botao-estilo">Codificar</button>
+    </section>
+
+    <br>
+    <br>
+<section>
+        <label><strong>Resultado:</strong></label>
+    <br>
+         <textarea name="resultado" id="resultado" cols="50" rows="10"  class="caixa"></textarea>
+    </section>
+    </form>
+</main>
+    <footer class="rodape">
+        <div class="icons">
+            <h3>Siga-me nas redes sociais!</h3>
+            <a href="https://github.com/SuzBarbosa"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/suzanacobarbosa/"><ion-icon name="logo-linkedin"></ion-icon></a>
+       <p>Projeto Individual #2 </p>
+       <P>Resilia - Programadores Cariocas </P>
+       <p>_____________________________ Desenvolvido por Suzana Barbosa</p> 
+        </div>
+    </footer>
+    <script src="./src/js/script.js" defer></script>
+    <!--ícones-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

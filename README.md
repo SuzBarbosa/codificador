@@ -23,7 +23,7 @@ Utilizei como base as aulas e códigos demostrados em aulas do curso.
 
 
 
-📌 Link do projeto no github Pages: https://suzbarbosa.github.io/cofidificador/
+📌 Link do projeto no github Pages: https://suzbarbosa.github.io/codificador/
  
 ---
 ⌨️ com ❤️ por Suzana Barbosa 😊
